@@ -26,11 +26,6 @@ public class PlayerHealth : HealthController
         return invulnerable;
     }
 
-    public int GetHealth()
-    {
-        return health;
-    }
-
     public void Heal (int amount)
     {
         health += amount;
