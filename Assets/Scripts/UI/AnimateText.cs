@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimateText : MonoBehaviour
 {
@@ -13,8 +14,8 @@ public class AnimateText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        beginY = 0 - canvas.rect.height / 2;
-        endY = 0 + canvas.rect.height * 2;
+        beginY = 0 - canvas.rect.height / 2.5f;
+        endY = 0 + canvas.rect.height * 1.5f;
 
         Vector3 posY = new Vector3(text.position.x, beginY, 0);
 
@@ -33,8 +34,6 @@ public class AnimateText : MonoBehaviour
 
     public void PlayGame()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);  // Go to the first scene
-        Debug.Log("QUIT");
-        Application.Quit();
+        SceneManager.LoadScene(0);  // Go to the first scene
     }
 }
