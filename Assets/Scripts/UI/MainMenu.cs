@@ -8,7 +8,17 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        //SceneManager.LoadScene("");  // Uncomment this line and add the first scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);  // Go to the first scene
+    }
+
+    public void ShowCredits()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);  // UGo to the credits scene
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void Exit()
