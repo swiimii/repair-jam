@@ -6,9 +6,11 @@ public class MovementBehavior : MonoBehaviour
 {
     public void Move(Vector2 movementVector)
     {
-        if (GetComponent<PlayerHealth>.IsInvulnerable())
-        Rigidbody2D myRigidbody = GetComponent<PlayerMovementController>().myRigidBody;
-        myRigidbody.velocity = movementVector;
+        if (!GetComponent<PlayerHealth>().IsInvulnerable())
+        {
+            Rigidbody2D myRigidbody = GetComponent<PlayerMovementController>().myRigidBody;
+            myRigidbody.velocity = movementVector;
+        }
     }
     public void KnockBack()
     {
