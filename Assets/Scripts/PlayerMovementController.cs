@@ -7,35 +7,23 @@ public class PlayerMovementController : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public MovementBehavior myBehavior;
 
+    private float horizontal;
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Jump");
+        horizontal = Input.GetAxisRaw("Horizontal");
 
-        //Check for touching floor
-        Grounded();
-        if (vertical != 0 && !Grounded())
+        if (Input.GetAxisRaw("Jump") > 0)
         {
-            vertical = 0;
+            myBehavior.Jump();
         }
-        
-        myBehavior.Move(new Vector2(horizontal * 5, myRigidBody.velocity.y + vertical));
     }
 
-    public bool Grounded()
+    void FixedUpdate()
     {
-        var distance = .8f * 1;
-        var layermask = 1 << LayerMask.NameToLayer("Ground");
-
-        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
-        Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
-
-        print(hit.collider ? hit.collider.gameObject : false);
-        if (hit.collider)
-        {
-            return true;
-        }
-        return false;
+        //fixed rate movement
+        myBehavior.Move(new Vector2(horizontal * 5, myRigidBody.velocity.y));
     }
+
+    
 }

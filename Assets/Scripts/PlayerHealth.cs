@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
         if(!invulnerable)
         {
             health -= dmg;
-            // GetComponent<MovementBehavior>().knockBack();
+            GetComponent<MovementBehavior>().Knockback();
             StartCoroutine("Invulnerable");
         }
     }
@@ -26,6 +26,11 @@ public class PlayerHealth : MonoBehaviour
     public int GetHealth()
     {
         return health;
+    }
+
+    public void Heal (int amount)
+    {
+        health += amount;
     }
 
     public IEnumerator Invulnerable()
