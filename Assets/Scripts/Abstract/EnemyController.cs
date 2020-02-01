@@ -7,4 +7,6 @@ public abstract class EnemyController : MonoBehaviour
     public abstract bool Grounded();
 
     public abstract bool HittingWall();
+
+    public abstract bool AtEdge();
 }

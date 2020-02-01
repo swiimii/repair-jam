@@ -2,18 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : HealthController
 {
-    [SerializeField] int health = 3;
     [SerializeField] bool invulnerable = false;
     [SerializeField] float invulnerablilityTime = .3f;
 
-    public void Damage(int dmg)
+    public void Start()
+    {
+        health = maxHealth;
+    }
+    public override void Damage(int dmg)
     {
         if(!invulnerable)
         {
             health -= dmg;
-            // GetComponent<MovementBehavior>().knockBack();
+            GetComponent<MovementBehavior>().Knockback();
             StartCoroutine("Invulnerable");
         }
     }
@@ -23,9 +26,9 @@ public class PlayerHealth : MonoBehaviour
         return invulnerable;
     }
 
-    public int GetHealth()
+    public void Heal (int amount)
     {
-        return health;
+        health += amount;
     }
 
     public IEnumerator Invulnerable()
