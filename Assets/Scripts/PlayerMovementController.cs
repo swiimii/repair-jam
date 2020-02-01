@@ -6,13 +6,6 @@ public class PlayerMovementController : MonoBehaviour
 {
     public Rigidbody2D myRigidBody;
     public MovementBehavior myBehavior;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-        //unnecessary
-        //myRigidBody = gameObject.GetComponent<Rigidbody2D>();
-    }
 
     // Update is called once per frame
     void Update()
