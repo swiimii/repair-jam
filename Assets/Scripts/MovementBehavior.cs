@@ -36,6 +36,8 @@ public class MovementBehavior : MonoBehaviour
         if (Grounded())
         {
             //Move up
+            GetComponent<Animator>().SetTrigger("jump");
+            GetComponent<Animator>().SetBool("isAirborne", true);
             var jumpVelocity = 5f;
             myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);
         }
@@ -57,11 +59,12 @@ public class MovementBehavior : MonoBehaviour
         Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
 
         //Print object if hit, false if false
-        print(hit.collider ? hit.collider.gameObject : false);
+        // print(hit.collider ? hit.collider.gameObject : false);
 
         //Return true or false based on if it hit ground
         if (hit.collider)
         {
+            GetComponent<Animator>().SetBool("isAirborne", false);
             return true;
         }
         return false;
