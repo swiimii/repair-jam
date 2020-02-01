@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementBehavior : MonoBehaviour
 {
     private Rigidbody2D myRigidbody;
-
+    
     public void Start()
     {
         //Grab rigidbody for later use
@@ -15,8 +15,9 @@ public class MovementBehavior : MonoBehaviour
     //Updates Velocity to new Velocity
     public void Move(Vector2 movementVector)
     {
+        HittingWall();
         //Check if you are able to move (not invulnerable)
-        if (!GetComponent<PlayerHealth>().IsInvulnerable())
+        if (!GetComponent<PlayerHealth>().IsInvulnerable() && !HittingWall())
         {
             //Update velocity to new velocity
             myRigidbody.velocity = movementVector;
@@ -36,7 +37,7 @@ public class MovementBehavior : MonoBehaviour
         if (Grounded())
         {
             //Move up
-            var jumpVelocity = 5f;
+            float jumpVelocity = 5f;
             myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);
         }
         
@@ -45,22 +46,52 @@ public class MovementBehavior : MonoBehaviour
     //To check if on the ground
     public bool Grounded()
     {
-        var distance = .8f;
+        float distance = .8f;
 
         //Only compare to Ground layer
-        var layermask = 1 << LayerMask.NameToLayer("Ground");
+        int layermask = 1 << LayerMask.NameToLayer("Ground");
 
         //Get if it hit
-        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
 
-        //Used to see ray
-        Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
-
-        //Print object if hit, false if false
-        print(hit.collider ? hit.collider.gameObject : false);
+        //Draws ray
+        //Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
 
         //Return true or false based on if it hit ground
         if (hit.collider)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public bool HittingWall()
+    {
+        //Set positive or negative direction
+        float distance = .8f * GetComponent<PlayerMovementController>().direction;
+
+        //Only compare to Ground layer
+        int layermask = 1 << LayerMask.NameToLayer("Ground");
+
+        //Height of object divided by 2
+        float height = GetComponent<CapsuleCollider2D>().bounds.size.y / 2;
+        
+        //Vector form of above
+        Vector3 heightVector = new Vector3(0, height, 0);
+
+        //Checks middle, high, and low casts
+        RaycastHit2D hit1 = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask, 0);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position +  heightVector, Vector3.right, distance, layermask, 0);
+        RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask, 0);
+        
+        //Draws the rays
+        /*Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
+        Debug.DrawRay(transform.position + heightVector, Vector3.right * distance, Color.green);
+        Debug.DrawRay(transform.position - heightVector, Vector3.right * distance, Color.green);
+        */
+        
+        //if it hit return true for hitting wall
+        if (hit1.collider || hit2.collider || hit3.collider)
         {
             return true;
         }
