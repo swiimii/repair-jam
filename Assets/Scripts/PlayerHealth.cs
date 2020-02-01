@@ -16,7 +16,7 @@ public class PlayerHealth : HealthController
         if(!invulnerable)
         {
             health -= dmg;
-            // GetComponent<MovementBehavior>().knockBack();
+            GetComponent<MovementBehavior>().Knockback();
             StartCoroutine("Invulnerable");
         }
     }
@@ -24,6 +24,16 @@ public class PlayerHealth : HealthController
     public bool IsInvulnerable()
     {
         return invulnerable;
+    }
+
+    public int GetHealth()
+    {
+        return health;
+    }
+
+    public void Heal (int amount)
+    {
+        health += amount;
     }
 
     public IEnumerator Invulnerable()

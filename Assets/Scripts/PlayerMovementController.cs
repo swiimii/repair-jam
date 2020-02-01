@@ -7,16 +7,23 @@ public class PlayerMovementController : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public MovementBehavior myBehavior;
 
+    private float horizontal;
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Jump");
+        horizontal = Input.GetAxisRaw("Horizontal");
 
-        //Check for touching floor
-        //If input = jump and touchingfloor = false 
-        //then vertical = 0
-        
-        myBehavior.Move(new Vector2(horizontal, myRigidBody.velocity.y + vertical));
+        if (Input.GetAxisRaw("Jump") > 0)
+        {
+            myBehavior.Jump();
+        }
     }
+
+    void FixedUpdate()
+    {
+        //fixed rate movement
+        myBehavior.Move(new Vector2(horizontal * 5, myRigidBody.velocity.y));
+    }
+
+    
 }

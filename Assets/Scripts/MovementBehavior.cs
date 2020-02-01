@@ -4,19 +4,65 @@ using UnityEngine;
 
 public class MovementBehavior : MonoBehaviour
 {
+    public Rigidbody2D myRigidbody;
+
+    public void Start()
+    {
+        //Grab rigidbody for later use
+        myRigidbody = GetComponent<PlayerMovementController>().myRigidBody;
+    }
+    
+    //Updates Velocity to new Velocity
     public void Move(Vector2 movementVector)
     {
-        if (GetComponent<PlayerHealth>().IsInvulnerable())
+        //Check if you are able to move (not invulnerable)
+        if (!GetComponent<PlayerHealth>().IsInvulnerable())
         {
-            Rigidbody2D myRigidbody = GetComponent<PlayerMovementController>().myRigidBody;
+            //Update velocity to new velocity
             myRigidbody.velocity = movementVector;
         }
     }
-    public void KnockBack()
+
+    public void Knockback()
     {
-        PlayerMovementController player = GetComponent<PlayerMovementController>();
-        Move(new Vector2(-player.myRigidBody.velocity.x, 0.5f));
+        //Move up and in the reverse direction
+        Move(new Vector2(-myRigidbody.velocity.x, 0.5f));
 
     }
 
+    public void Jump()
+    {
+        //Check if grounded
+        if (Grounded())
+        {
+            //Move up
+            Move(new Vector2(myRigidbody.velocity.x, 5f));
+        }
+        
+    }
+
+    //To check if on the ground
+    public bool Grounded()
+    {
+        var distance = .8f;
+
+        //Only compare to Ground layer
+        var layermask = 1 << LayerMask.NameToLayer("Ground");
+
+        //Get if it hit
+        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
+
+        //Used to see ray
+        Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
+
+        //Print object if hit, false if false
+        print(hit.collider ? hit.collider.gameObject : false);
+
+        //Return true or false based on if it hit ground
+        if (hit.collider)
+        {
+            return true;
+        }
+        return false;
+    }
 }
