@@ -36,7 +36,7 @@ public class BasicEnemyController : EnemyController
 
     public override bool Grounded()
     {
-        var distance = .8f * direction;
+        var distance = .8f;
         var layermask = 1 << LayerMask.NameToLayer("Ground");
 
         var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
