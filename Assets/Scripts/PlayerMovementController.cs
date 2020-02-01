@@ -9,6 +9,7 @@ public class PlayerMovementController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         //unnecessary
         //myRigidBody = gameObject.GetComponent<Rigidbody2D>();
     }
@@ -22,8 +23,7 @@ public class PlayerMovementController : MonoBehaviour
         //Check for touching floor
         //If input = jump and touchingfloor = false 
         //then vertical = 0
-
-        myBehavior.Move(new Vector2(horizontal, myRigidBody.velocity.y + vertical), myRigidBody);
-
+        
+        myBehavior.Move(new Vector2(horizontal, myRigidBody.velocity.y + vertical));
     }
 }
