@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: b0a86faab019448ea8f27f8b34751b31
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6953384279034425168
+    second: bigdaddyjump_0
+  - first:
+      213: 7699757493319804798
+    second: bigdaddyjump_1
+  - first:
+      213: -8942385325408892870
+    second: bigdaddyjump_2
+  - first:
+      213: 4091331722028254365
+    second: bigdaddyjump_3
+  - first:
+      213: -586709593300429482
+    second: bigdaddyjump_4
+  - first:
+      213: 1111999952947795058
+    second: bigdaddyjump_5
+  - first:
+      213: 648367873822632640
+    second: bigdaddyjump_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,7 +117,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bigdaddyjump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d619a663e754e644297a44abb32ab8db
+      internalID: -6953384279034425168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdaddyjump_1
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263ed98a42837047a6cb684695389bd
+      internalID: 7699757493319804798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdaddyjump_2
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49484037f71abf8499880f7e7c08e433
+      internalID: -8942385325408892870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdaddyjump_3
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117e747a3299e8943801544bff9e6744
+      internalID: 4091331722028254365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdaddyjump_4
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5630f056e58099940939b7f4eca95c3c
+      internalID: -586709593300429482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdaddyjump_5
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b022f45dac95d4b45b57f88f9b3d3c6e
+      internalID: 1111999952947795058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigdaddyjump_6
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 0
+        width: 819.2
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb9d1eaa32c42441a64ae928c232485
+      internalID: 648367873822632640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
