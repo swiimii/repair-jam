@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: d7f77807c38173b4881827a6255a59d0
+guid: 2fe21fbd582794a6c849aa25a3fd857c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5595361864418479751
-    second: Kiwi_Run-Sheet-Sheet_0
+      213: 167040147304502693
+    second: the right kitcheb_0
   - first:
-      213: -1960030176779272937
-    second: Kiwi_Run-Sheet-Sheet_1
+      213: -7888853211161147580
+    second: the right kitcheb_1
   - first:
-      213: -7475037892518660444
-    second: Kiwi_Run-Sheet-Sheet_2
+      213: 15602042530152912
+    second: the right kitcheb_2
   - first:
-      213: 2438409039076796327
-    second: Kiwi_Run-Sheet-Sheet_3
-  - first:
-      213: -132778523312614567
-    second: Kiwi_Run-Sheet-Sheet_4
+      213: 8847479935686664584
+    second: the right kitcheb_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -75,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -87,7 +84,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -99,7 +96,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -113,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kiwi_Run-Sheet-Sheet_0
+      name: the right kitcheb_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 10
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef3b245a213dc649bac3e87cf334728
-      internalID: 5595361864418479751
+      spriteID: d4cd041439ec44a099cd1943a03afe93
+      internalID: 167040147304502693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_Run-Sheet-Sheet_1
+      name: the right kitcheb_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 2000
+        y: 10
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 173acb37c01622b43b8cc1fc31482af3
-      internalID: -1960030176779272937
+      spriteID: 62ceb4721a80b450793db850599cd990
+      internalID: -7888853211161147580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_Run-Sheet-Sheet_2
+      name: the right kitcheb_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 4000
+        y: 10
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31cf21e3dca410943b069e7035bccbe1
-      internalID: -7475037892518660444
+      spriteID: 2cb25bc6af07c48a39882e6562f808dc
+      internalID: 15602042530152912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_Run-Sheet-Sheet_3
+      name: the right kitcheb_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 6000
+        y: 10
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,29 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 556fdab3c5cc8ac4db1f2b786281fc9f
-      internalID: 2438409039076796327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kiwi_Run-Sheet-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf1cda1799698e346bc0adf58691d549
-      internalID: -132778523312614567
+      spriteID: 5694f785c94e74489b9901e6430d6d66
+      internalID: 8847479935686664584
       vertices: []
       indices: 
       edges: []

@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MovementBehavior : MonoBehaviour
 {
-    public Rigidbody2D myRigidbody;
+    private Rigidbody2D myRigidbody;
 
     public void Start()
     {
         //Grab rigidbody for later use
-        myRigidbody = GetComponent<PlayerMovementController>().myRigidBody;
+        myRigidbody = GetComponent<Rigidbody2D>();
     }
     
     //Updates Velocity to new Velocity
@@ -36,7 +36,8 @@ public class MovementBehavior : MonoBehaviour
         if (Grounded())
         {
             //Move up
-            Move(new Vector2(myRigidbody.velocity.x, 5f));
+            var jumpVelocity = 5f;
+            myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);
         }
         
     }

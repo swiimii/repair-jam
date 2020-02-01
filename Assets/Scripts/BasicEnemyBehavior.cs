@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class BasicEnemyBehavior : EnemyBehavior
 {
-
     public override void Move(Vector2 direction)
     {
         transform.position += (Vector3)direction;
     }
 
-    public override void Damage(int dmg)
+    public virtual void Knockback(Vector2 direction)
     {
-        
-    }
-
-    public override void Death()
-    {
-        throw new System.NotImplementedException();
+        return;
     }
 }
+       
