@@ -19,7 +19,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetAxisRaw("Jump") > 0)
+        if (Input.GetAxisRaw("Vertical") > 0)
         {
             myBehavior.Jump();
         }
