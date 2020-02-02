@@ -5,7 +5,8 @@ public class PlayerMovementController : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public MovementBehavior myBehavior;
     public float direction;
-    public bool grounded;
+    public bool grounded, attacking;
+    public GameObject attackHitbox;
     private void Start()
     {
         direction = 0;
@@ -19,53 +20,63 @@ public class PlayerMovementController : MonoBehaviour
     {
         grounded = Grounded();
         horizontal = Input.GetAxisRaw("Horizontal");
-
-        if (grounded && Input.GetAxisRaw("Vertical") > 0)
+        if (!attacking)
         {
-            myBehavior.Jump();
+            if (grounded && Input.GetButton("Jump"))
+            {
+                myBehavior.Jump();
+            }
+            if (Input.GetButtonDown("Attack"))
+            {
+                myBehavior.Chop();
+            }
         }
     }
 
     void FixedUpdate()
     {
-        //Left
-        if (horizontal < 0)
+        if (!attacking)
         {
-            direction = -1;
-            SpriteRenderer sprite = GetComponent<SpriteRenderer>();
-            GetComponent<Animator>().SetBool("isMoving", true);
-            sprite.flipX = true;
-        }
-        //Right
-        else if (horizontal > 0)
-        {
-            direction = 1;
-            GetComponent<Animator>().SetBool("isMoving", true);
-            SpriteRenderer sprite = GetComponent<SpriteRenderer>();
-            sprite.flipX = false;
-        }
-        //Not moving
-        else
-        {
-            GetComponent<Animator>().SetBool("isMoving", false);
-        }
+            //Left
+            if (horizontal < 0)
+            {
+                direction = -1;
+                SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+                GetComponent<Animator>().SetBool("isMoving", true);
+                sprite.flipX = true;
+            }
+            //Right
+            else if (horizontal > 0)
+            {
+                direction = 1;
+                GetComponent<Animator>().SetBool("isMoving", true);
+                SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+                sprite.flipX = false;
+            }
+            //Not moving
+            else
+            {
+                GetComponent<Animator>().SetBool("isMoving", false);
+            }
 
-        //fixed rate movement
-        myBehavior.Move(new Vector2(horizontal * 5, myRigidBody.velocity.y));
+            //fixed rate movement
+            myBehavior.Move(new Vector2(horizontal * 5, myRigidBody.velocity.y));
+        }
     }
 
     private bool Grounded()
     {
-        float distance = 1f;
+        float distance = .05f;
 
         //Only compare to Ground layer
         int layermask = 1 << LayerMask.NameToLayer("Ground");
 
         //Get if it hit
-        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask);
+        var col = GetComponent<CapsuleCollider2D>();
+        var hit = Physics2D.Raycast(col.bounds.center + col.bounds.size.y/2 * Vector3.down, Vector3.down, distance, layermask);
 
         //Draws ray
-        Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
+        Debug.DrawRay(col.bounds.center + col.bounds.size.y / 2 * Vector3.down, Vector3.down * distance, Color.blue);
 
         //Return true or false based on if it hit ground
         if (hit.collider)
