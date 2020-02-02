@@ -20,6 +20,17 @@ public class BasicEnemyHealthController : HealthController
 
     public virtual void Death()
     {
+        StartCoroutine("DeathRoutine");
+    }
+
+    public IEnumerator DeathRoutine()
+    {
+        GetComponent<Rigidbody2D>().isKinematic = true;
+        GetComponent<Animator>().SetBool("isDead", true);
+        GetComponent<BasicEnemyController>().enabled = false;
+        var col = GetComponent<Collider2D>();
+        col.offset = new Vector3(col.offset.x, col.offset.y - 100);
+        yield return new WaitForSeconds(1);
         Destroy(gameObject);
     }
 }
