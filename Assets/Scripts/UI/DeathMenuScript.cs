@@ -12,6 +12,6 @@ public class DeathMenuScript : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.sceneCount);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
