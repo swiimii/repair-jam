@@ -33,40 +33,16 @@ public class MovementBehavior : MonoBehaviour
 
     public void Jump()
     {
-        //Check if grounded
-        if (Grounded())
-        {
-            //Move up
-            GetComponent<Animator>().SetTrigger("jump");
-            GetComponent<Animator>().SetBool("isAirborne", true);
-            var jumpVelocity = 5f;
-            myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);
-        }
+        //Move up
+        GetComponent<Animator>().SetTrigger("jump");
+        GetComponent<Animator>().SetBool("isAirborne", true);
+        var jumpVelocity = 5f;
+        myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);
+        
         
     }
 
     //To check if on the ground
-    public bool Grounded()
-    {
-        float distance = .8f;
-
-        //Only compare to Ground layer
-        int layermask = 1 << LayerMask.NameToLayer("Ground");
-
-        //Get if it hit
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
-
-        //Draws ray
-        //Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
-
-        //Return true or false based on if it hit ground
-        if (hit.collider)
-        {
-            GetComponent<Animator>().SetBool("isAirborne", false);
-            return true;
-        }
-        return false;
-    }
 
     public bool HittingWall()
     {
@@ -77,7 +53,7 @@ public class MovementBehavior : MonoBehaviour
         int layermask = 1 << LayerMask.NameToLayer("Ground");
 
         //Height of object divided by 2
-        float height = GetComponent<CapsuleCollider2D>().bounds.size.y / 2;
+        float height = GetComponent<CapsuleCollider2D>().bounds.size.x / 2;
         
         //Vector form of above
         Vector3 heightVector = new Vector3(0, height, 0);
@@ -88,10 +64,10 @@ public class MovementBehavior : MonoBehaviour
         RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask, 0);
         
         //Draws the rays
-        /*Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
+        Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
         Debug.DrawRay(transform.position + heightVector, Vector3.right * distance, Color.green);
         Debug.DrawRay(transform.position - heightVector, Vector3.right * distance, Color.green);
-        */
+        
         
         //if it hit return true for hitting wall
         if (hit1.collider || hit2.collider || hit3.collider)
