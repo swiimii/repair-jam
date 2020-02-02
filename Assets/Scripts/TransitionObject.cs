@@ -9,6 +9,9 @@ public class TransitionObject : MonoBehaviour
     public int sceneNumber = -1;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(sceneNumber >= 0 ? sceneNumber : SceneManager.GetActiveScene().buildIndex + 1);
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
+        {
+            SceneManager.LoadScene(sceneNumber >= 0 ? sceneNumber : SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

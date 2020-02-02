@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1218e1c18092ddc43a59a258d8d5a662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpMagnitude: 0.2
+  jumpMagnitude: 6
 --- !u!114 &7363506782921769769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,8 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae360446acb1fd4abac1ac476be04c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 0.1
+  movespeed: 6
   direction: 1
   moving: 0
-  jumpAngle: {x: 0, y: 0}
+  jumpAngle: {x: 1, y: 3}
   idleduration: 1
