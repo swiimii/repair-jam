@@ -35,7 +35,7 @@ public class MovementBehavior : MonoBehaviour
         //Move up
         GetComponent<Animator>().SetTrigger("jump");
         GetComponent<Animator>().SetBool("isAirborne", true);
-        var jumpVelocity = 8f;
+        var jumpVelocity = 6f;
         myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);               
     }
 
