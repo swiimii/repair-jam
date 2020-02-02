@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
 {
@@ -64,7 +62,7 @@ public class PlayerMovementController : MonoBehaviour
         int layermask = 1 << LayerMask.NameToLayer("Ground");
 
         //Get if it hit
-        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
+        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask);
 
         //Draws ray
         Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);

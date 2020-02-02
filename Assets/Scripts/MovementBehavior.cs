@@ -15,7 +15,7 @@ public class MovementBehavior : MonoBehaviour
     //Updates Velocity to new Velocity
     public void Move(Vector2 movementVector)
     {
-        HittingWall();
+        // HittingWall();
         //Check if you are able to move (not invulnerable)
         if (!GetComponent<PlayerHealth>().IsInvulnerable() && !HittingWall())
         {
@@ -36,10 +36,8 @@ public class MovementBehavior : MonoBehaviour
         //Move up
         GetComponent<Animator>().SetTrigger("jump");
         GetComponent<Animator>().SetBool("isAirborne", true);
-        var jumpVelocity = 5f;
-        myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);
-        
-        
+        var jumpVelocity = 8f;
+        myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);               
     }
 
     //To check if on the ground
@@ -59,9 +57,9 @@ public class MovementBehavior : MonoBehaviour
         Vector3 heightVector = new Vector3(0, height, 0);
 
         //Checks middle, high, and low casts
-        RaycastHit2D hit1 = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask, 0);
-        RaycastHit2D hit2 = Physics2D.Raycast(transform.position +  heightVector, Vector3.right, distance, layermask, 0);
-        RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask, 0);
+        RaycastHit2D hit1 = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position +  heightVector, Vector3.right, distance, layermask);
+        RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask);
         
         //Draws the rays
         Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
