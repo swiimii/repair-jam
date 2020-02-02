@@ -56,7 +56,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private bool Grounded()
     {
-        float distance = .8f;
+        float distance = 1f;
 
         //Only compare to Ground layer
         int layermask = 1 << LayerMask.NameToLayer("Ground");
