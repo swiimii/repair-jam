@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: 53a79674c94dd4749947c624076641e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7000261559336853372
+    second: kiwideath_0
+  - first:
+      213: -5890660821092934286
+    second: kiwideath_1
+  - first:
+      213: 5802507636172833094
+    second: kiwideath_2
+  - first:
+      213: -366784671566156990
+    second: kiwideath_3
+  - first:
+      213: -6797050760671532687
+    second: kiwideath_4
+  - first:
+      213: -3339404672461489801
+    second: kiwideath_5
+  - first:
+      213: 7309937596652206695
+    second: kiwideath_6
+  - first:
+      213: 4531578935582674669
+    second: kiwideath_7
+  - first:
+      213: 5594272821559757105
+    second: kiwideath_8
+  - first:
+      213: 8530580915053946509
+    second: kiwideath_9
+  - first:
+      213: -283794424475383244
+    second: kiwideath_10
+  - first:
+      213: 5963923640704288232
+    second: kiwideath_11
+  - first:
+      213: -6989613583141119066
+    second: kiwideath_12
+  - first:
+      213: -4848159467489634127
+    second: kiwideath_13
+  - first:
+      213: 7547068696873876817
+    second: kiwideath_14
+  - first:
+      213: -2375339079483284153
+    second: kiwideath_15
+  - first:
+      213: 8898697940941147729
+    second: kiwideath_16
+  - first:
+      213: 4473483668485372659
+    second: kiwideath_17
+  - first:
+      213: 1839303266054652846
+    second: kiwideath_18
+  - first:
+      213: -8802475278597047379
+    second: kiwideath_19
+  - first:
+      213: 3052444057424883271
+    second: kiwideath_20
+  - first:
+      213: 8297501233401573761
+    second: kiwideath_21
+  - first:
+      213: -2873151383563806977
+    second: kiwideath_22
+  - first:
+      213: 6629433525418968569
+    second: kiwideath_23
+  - first:
+      213: 6968927539036339713
+    second: kiwideath_24
+  - first:
+      213: 7027108658959398313
+    second: kiwideath_25
+  - first:
+      213: 8806121742172909880
+    second: kiwideath_26
+  - first:
+      213: -7985203223570103249
+    second: kiwideath_27
+  - first:
+      213: -6776438507567947414
+    second: kiwideath_28
+  - first:
+      213: -1767952308910375435
+    second: kiwideath_29
+  - first:
+      213: 8281085716579267969
+    second: kiwideath_30
+  - first:
+      213: 1810396796817795013
+    second: kiwideath_31
+  - first:
+      213: -7716857778631978821
+    second: kiwideath_32
+  - first:
+      213: -3079163717765000545
+    second: kiwideath_33
+  - first:
+      213: 1399073344259304063
+    second: kiwideath_34
+  - first:
+      213: -6788689366144922044
+    second: kiwideath_35
+  - first:
+      213: -2574407290255223253
+    second: kiwideath_36
+  - first:
+      213: 931862231259787596
+    second: kiwideath_37
+  - first:
+      213: -7178034387760880211
+    second: kiwideath_38
+  - first:
+      213: -1746140567473743417
+    second: kiwideath_39
+  - first:
+      213: -1711581092913585407
+    second: kiwideath_40
+  - first:
+      213: -4339223180314395756
+    second: kiwideath_41
+  - first:
+      213: -3927364963396627730
+    second: kiwideath_42
+  - first:
+      213: -1706931015185251859
+    second: kiwideath_43
+  - first:
+      213: 481036772314033602
+    second: kiwideath_44
+  - first:
+      213: -3548007941501561318
+    second: kiwideath_45
+  - first:
+      213: -247710578237436182
+    second: kiwideath_46
+  - first:
+      213: 5006950087746620490
+    second: kiwideath_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kiwideath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c588e4ddb1b84c76af91ce17c91f416
+      internalID: -7000261559336853372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b05f4752cbaf4f3b8022a8c4c32bafe
+      internalID: -5890660821092934286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7502c3175b5b641928699ab35943fa23
+      internalID: 5802507636172833094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb1f053abff4496ac15f2a7441abbc
+      internalID: -366784671566156990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebda665a5dab54a92b43cf6bc92d4ae3
+      internalID: -6797050760671532687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e571b1258ad4120b30d7c947848c53
+      internalID: -3339404672461489801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624ca6f94dbe546db83bcd7b6abf71ca
+      internalID: 7309937596652206695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_7
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bfa90e503114c13a56141e69e5e8cd
+      internalID: 4531578935582674669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_8
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97a45bf4c7d84014b6adc638d249314
+      internalID: 5594272821559757105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_9
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f7321eede0d466196ecf876d5d7206
+      internalID: 8530580915053946509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_10
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9071d0eacae694874b4d946e5098d300
+      internalID: -283794424475383244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_11
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109c7e27b795b43809b327315ef5392f
+      internalID: 5963923640704288232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_12
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10b7831389c0476da27d4d418e03927
+      internalID: -6989613583141119066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_13
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30391096c1848188ef251045eeafa8
+      internalID: -4848159467489634127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_14
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd437abc87a594da59a3825735c72954
+      internalID: 7547068696873876817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_15
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd855f64a4ff543b49b914dedbb79bbc
+      internalID: -2375339079483284153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_16
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb05607715e84b26a36b9addf9fe7b5
+      internalID: 8898697940941147729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_17
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fa82719a9a646e3a406c7da8e9d554
+      internalID: 4473483668485372659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_18
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201656ecbda3d40e0823c7966f4d8ced
+      internalID: 1839303266054652846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_19
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb8efb553cf14f279e874dd357b1d3a
+      internalID: -8802475278597047379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_20
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c45c7c6ae09742569fc32101b9c4856
+      internalID: 3052444057424883271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_21
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f302b536cfee40a0b6fb0a2ef4f3ecc
+      internalID: 8297501233401573761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_22
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ab4b9bb7b584cdc92e840e2aa53497
+      internalID: -2873151383563806977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_23
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37f13a4e06ac49f7925d7a762ba0629
+      internalID: 6629433525418968569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_24
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774f7aee44b774c1c87ebfcd384b57f5
+      internalID: 6968927539036339713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_25
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b580a5fa22b4ebd8e897d6a2818d77
+      internalID: 7027108658959398313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_26
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dea2855981d14fc6831662c95262d59
+      internalID: 8806121742172909880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f62193ce1fd42cc929c7868a509c6c
+      internalID: -7985203223570103249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_28
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38f7f14b443c4b178f40be48d9179f4
+      internalID: -6776438507567947414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_29
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb972f30a51d462799e7e574fee39f8
+      internalID: -1767952308910375435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_30
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c586e9dac7444ef9c8fab81eb87805
+      internalID: 8281085716579267969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_31
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881fdd989b24549f59629cdc3e27e200
+      internalID: 1810396796817795013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_32
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf9c410556cd4e68a3dcd39dfac16e3
+      internalID: -7716857778631978821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_33
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f28808117124876b2cfb7fb0afeff3
+      internalID: -3079163717765000545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_34
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cda27f712c8435db40fcf0d874dc6b
+      internalID: 1399073344259304063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_35
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c9009d385e42aeb7461005807b8b2
+      internalID: -6788689366144922044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_36
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77158420cc6473788e03772c42b655
+      internalID: -2574407290255223253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_37
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e994a8943d474e828932624ee69626f
+      internalID: 931862231259787596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_38
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f03cbd608b9c4c5ab92deb0137cd256
+      internalID: -7178034387760880211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_39
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaf31d3dc0b94f80ade30a1dd958ebd
+      internalID: -1746140567473743417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_40
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a67ea891e764a4db0e2b178faf4d4b
+      internalID: -1711581092913585407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_41
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4aa4a625003448869dc48c9dcdd3ac0
+      internalID: -4339223180314395756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_42
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff18f72221814e15a83d3ef26618f7d
+      internalID: -3927364963396627730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_43
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1307abb25080437ab234bdf1d1e1f09
+      internalID: -1706931015185251859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_44
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c1b72ae30044af49edc76ad1cae0bb
+      internalID: 481036772314033602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_45
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a840dcc34580d4a57a8ab296727dc07e
+      internalID: -3548007941501561318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_46
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c558dfd4f3954233800231346d304cd
+      internalID: -247710578237436182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideath_47
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00698f039f1304282a6b6130910d9c93
+      internalID: 5006950087746620490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

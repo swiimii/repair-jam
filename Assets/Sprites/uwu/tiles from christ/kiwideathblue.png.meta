@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: d24d5706201e54d3db3fe2100b85eff4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7870674438362791142
+    second: kiwideathblue_0
+  - first:
+      213: -8726355102160527790
+    second: kiwideathblue_1
+  - first:
+      213: -7581243251201677991
+    second: kiwideathblue_2
+  - first:
+      213: -1227248509058425903
+    second: kiwideathblue_3
+  - first:
+      213: -559714769424987504
+    second: kiwideathblue_4
+  - first:
+      213: -5319116984724962900
+    second: kiwideathblue_5
+  - first:
+      213: -6841631940418364706
+    second: kiwideathblue_6
+  - first:
+      213: -9126641367389248565
+    second: kiwideathblue_7
+  - first:
+      213: -5254236094053482839
+    second: kiwideathblue_8
+  - first:
+      213: 5671288488321062395
+    second: kiwideathblue_9
+  - first:
+      213: 1994657185212271783
+    second: kiwideathblue_10
+  - first:
+      213: -5573347503104494255
+    second: kiwideathblue_11
+  - first:
+      213: -4497952237106665126
+    second: kiwideathblue_12
+  - first:
+      213: 3494569597641259591
+    second: kiwideathblue_13
+  - first:
+      213: -6814673475803226233
+    second: kiwideathblue_14
+  - first:
+      213: -7613399078486324434
+    second: kiwideathblue_15
+  - first:
+      213: 8900042695340702659
+    second: kiwideathblue_16
+  - first:
+      213: 3830964559607255424
+    second: kiwideathblue_17
+  - first:
+      213: 746650087839095053
+    second: kiwideathblue_18
+  - first:
+      213: -3612122607030995137
+    second: kiwideathblue_19
+  - first:
+      213: -5654889901957891309
+    second: kiwideathblue_20
+  - first:
+      213: -3163383914552417687
+    second: kiwideathblue_21
+  - first:
+      213: 1416364832637949797
+    second: kiwideathblue_22
+  - first:
+      213: 3246738905643627554
+    second: kiwideathblue_23
+  - first:
+      213: -6003550978569677462
+    second: kiwideathblue_24
+  - first:
+      213: 8149724241609765752
+    second: kiwideathblue_25
+  - first:
+      213: 2140689875339263159
+    second: kiwideathblue_26
+  - first:
+      213: -2262948340653805747
+    second: kiwideathblue_27
+  - first:
+      213: -95785183080521084
+    second: kiwideathblue_28
+  - first:
+      213: 8999721231728285501
+    second: kiwideathblue_29
+  - first:
+      213: 3857611341619135180
+    second: kiwideathblue_30
+  - first:
+      213: -3341849529770810503
+    second: kiwideathblue_31
+  - first:
+      213: 4858620866180527697
+    second: kiwideathblue_32
+  - first:
+      213: 4024498781970072191
+    second: kiwideathblue_33
+  - first:
+      213: 7118559084303110566
+    second: kiwideathblue_34
+  - first:
+      213: -7249327690041401932
+    second: kiwideathblue_35
+  - first:
+      213: -7350503190184962884
+    second: kiwideathblue_36
+  - first:
+      213: -6565072690320928253
+    second: kiwideathblue_37
+  - first:
+      213: 8658847781703343309
+    second: kiwideathblue_38
+  - first:
+      213: -6133362351269928265
+    second: kiwideathblue_39
+  - first:
+      213: 6458109836532439602
+    second: kiwideathblue_40
+  - first:
+      213: -8078203847286670954
+    second: kiwideathblue_41
+  - first:
+      213: -3816334074181751417
+    second: kiwideathblue_42
+  - first:
+      213: -6038777846809251921
+    second: kiwideathblue_43
+  - first:
+      213: -6224409532949323027
+    second: kiwideathblue_44
+  - first:
+      213: -330438456289696828
+    second: kiwideathblue_45
+  - first:
+      213: -8060829916614772408
+    second: kiwideathblue_46
+  - first:
+      213: -3769646120998615405
+    second: kiwideathblue_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kiwideathblue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dae984ed97e4303b62128dda0a3751
+      internalID: 7870674438362791142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b944cd57c70d444b951c4de7a820009
+      internalID: -8726355102160527790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf822294679d42b683c3328df48ec30
+      internalID: -7581243251201677991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803a16fcd5da3449399bab6e12d26c67
+      internalID: -1227248509058425903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5e260b4505d4ff4995e92648c5de5e
+      internalID: -559714769424987504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b807c682206246d29e02fd78da4d77c
+      internalID: -5319116984724962900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95013fb1b60f44f40bcf53aacf135259
+      internalID: -6841631940418364706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_7
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf0bf1f0c264910a90e55121ca55ad
+      internalID: -9126641367389248565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_8
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38428cd251ee04b338e2c130f48e5f37
+      internalID: -5254236094053482839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_9
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea37f8560a849738f10d78653a78f0
+      internalID: 5671288488321062395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_10
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180ec668a54f34da3b616890e39f7d2b
+      internalID: 1994657185212271783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_11
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f687142560ba4bdfa7fbd898601fb68
+      internalID: -5573347503104494255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_12
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edd6821f723a4c8692ebb5a12420d6f
+      internalID: -4497952237106665126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_13
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e015662ee747edad9e3772dc2e59d
+      internalID: 3494569597641259591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_14
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e675e7d4b1948bb88e49ca784726cc
+      internalID: -6814673475803226233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_15
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d484b6cdb5cb348b781bcdbf5db93ff4
+      internalID: -7613399078486324434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_16
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ce99e70695405094393a9cfe9b944
+      internalID: 8900042695340702659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_17
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fa9ac7c35df4e6b912e53d0d1a23b3
+      internalID: 3830964559607255424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_18
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ab88b13368b4a44a64dec077a8bade
+      internalID: 746650087839095053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_19
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abba2b04cc8ef418cb5946c33a7b0030
+      internalID: -3612122607030995137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_20
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1186cfb40c8914b60a14071ad5a7afd8
+      internalID: -5654889901957891309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_21
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c452fdce6dda04b479dea701de150244
+      internalID: -3163383914552417687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_22
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c19b0e41393425ca285c49dde43c73
+      internalID: 1416364832637949797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_23
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a12eb13998b41f6a928772351cc05d
+      internalID: 3246738905643627554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_24
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e94b1a6249214fd991317cd2b06302d
+      internalID: -6003550978569677462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_25
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3553cac8f91524f95be6878315be150f
+      internalID: 8149724241609765752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_26
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f12a69b13c8452c83eabd1b1b40946
+      internalID: 2140689875339263159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1018e79eeaaaa499f8ed7238c985a728
+      internalID: -2262948340653805747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_28
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bedd968a2e24a6f8d585420d0574bb
+      internalID: -95785183080521084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_29
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e4f7249fd3e4859a5123f733e7c165
+      internalID: 8999721231728285501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_30
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318b4bb536f1e411ca69882b253c3b90
+      internalID: 3857611341619135180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_31
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af56472938554dbe979962fb32a9777
+      internalID: -3341849529770810503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_32
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b4539773f564bf4878a46eb74fb0cd
+      internalID: 4858620866180527697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_33
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b9e87107dd4f82b42963177115dae
+      internalID: 4024498781970072191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_34
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0b234a1a24447988058d4758bbd995
+      internalID: 7118559084303110566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_35
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae05fc6959e3445ec93cb43f9cced8e7
+      internalID: -7249327690041401932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_36
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaa874937f6742699fcb3435eab8649
+      internalID: -7350503190184962884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_37
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcc9790cab9d4ff19a366e0e77d9bb2
+      internalID: -6565072690320928253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_38
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461d5bf7958a740b9bb4f0181a5c2882
+      internalID: 8658847781703343309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_39
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90581876ea0049b796c8ea948f4a969
+      internalID: -6133362351269928265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_40
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c865e43762186446a93a5f86738d897f
+      internalID: 6458109836532439602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_41
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98ab73782d27468db4dab7180de8b9a
+      internalID: -8078203847286670954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_42
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e9fe1f351ae4b658a9cdcb8fad4e7f
+      internalID: -3816334074181751417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_43
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b032a3b3e914666ba58f7825fa602f
+      internalID: -6038777846809251921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_44
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ec934a7d1e644c4bdc117baf0ead06
+      internalID: -6224409532949323027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_45
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52b8753b27eb4c4b85cdb6b33cc05b2
+      internalID: -330438456289696828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_46
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6ff9ce7f9b4d5dbc41dd29a04327e
+      internalID: -8060829916614772408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathblue_47
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cb252827b1d4f90a059780a346bd87
+      internalID: -3769646120998615405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
