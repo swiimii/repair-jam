@@ -72,18 +72,26 @@ public class MovementBehavior : MonoBehaviour
         return false;
     }
 
-    private IEnumerable ChopRoutine()
+    public IEnumerator ChopRoutine()
     {
         float attackDuration = 1.2f;
 
         GetComponent<PlayerMovementController>().attacking = true;
         GetComponent<Animator>().SetBool("attacking", true);
-        
+        Lunge();
 
         yield return new WaitForSeconds(attackDuration);
 
         GetComponent<PlayerMovementController>().attacking = false;
         GetComponent<Animator>().SetBool("attacking", false);
         
+    }
+
+    public void Lunge()
+    {
+        var magnitude = 1f;
+        var rb = GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector3(magnitude, rb.velocity.y);
+
     }
 }

@@ -25,7 +25,7 @@ public class PlayerMovementController : MonoBehaviour
             {
                 myBehavior.Jump();
             }
-            if (Input.GetButton("Attack"))
+            if (Input.GetButtonDown("Attack"))
             {
                 myBehavior.Chop();
             }
