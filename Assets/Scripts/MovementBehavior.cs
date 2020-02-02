@@ -23,12 +23,10 @@ public class MovementBehavior : MonoBehaviour
         }
     }
 
-    //public void Knockback()
-    //{
-    //    //Move up and in the reverse direction
-    //    Move(new Vector2(-myRigidbody.velocity.x, 0.5f));
-
-    //}
+    public void Chop()
+    {
+        StartCoroutine("ChopRoutine");
+    }
 
     public void Jump()
     {
@@ -72,5 +70,20 @@ public class MovementBehavior : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    private IEnumerable ChopRoutine()
+    {
+        float attackDuration = 1.2f;
+
+        GetComponent<PlayerMovementController>().attacking = true;
+        GetComponent<Animator>().SetBool("attacking", true);
+        
+
+        yield return new WaitForSeconds(attackDuration);
+
+        GetComponent<PlayerMovementController>().attacking = false;
+        GetComponent<Animator>().SetBool("attacking", false);
+        
     }
 }

@@ -34,6 +34,6 @@ public class AnimateText : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(0);  // Go to the first scene
+        SceneManager.LoadScene(3);  // Go to the first scene
     }
 }
