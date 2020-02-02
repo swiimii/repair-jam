@@ -23,7 +23,7 @@ public class BasicEnemyController : EnemyController
 
     public override bool HittingWall()
     {
-        var distance = .8f * direction;
+        var distance = .4f * direction;
         var layermask = 1 << LayerMask.NameToLayer("Ground");
 
         var hit = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask);

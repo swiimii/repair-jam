@@ -6,8 +6,8 @@ public class BreadController : BasicEnemyController
 {
 
     public bool moving = false;
-    [SerializeField] float movementduration = 2f;
-    [SerializeField] float idleduration = 1f;
+    public Vector2 jumpAngle;
+    [SerializeField] float idleduration = .4f;
 
     private void Start()
     {
@@ -16,19 +16,15 @@ public class BreadController : BasicEnemyController
 
     public override void FixedUpdate()
     {
-        if (HittingWall() || AtEdge())
+        if (HittingWall())
         {
             direction *= -1;
             var sprite = GetComponent<SpriteRenderer>();
             sprite.flipX = sprite.flipX ? false : true;
 
             // keep velocity , mult by new vec3(keepx*-1, keepy, keepz)
-        }
-
-        if(moving)
-        {
-            GetComponent<BreadEnemyBehavior>().Move(direction * new Vector2(1.0f,3.0f) * movespeed);
-        }        
+            GetComponent<BreadEnemyBehavior>().FlipMovementDirection();
+        }     
     }
 
     public IEnumerator MovementSwitch()
@@ -40,18 +36,12 @@ public class BreadController : BasicEnemyController
             yield return new WaitForSeconds(idleduration);
 
             moving = true;
-            GetComponent<Animator>().SetBool("isMoving", true);
-            yield return new WaitForSeconds(movementduration);            
+            GetComponent<BreadEnemyBehavior>().Jump(jumpAngle);
+            yield return new WaitForSeconds(.2f);
+            while(!Grounded())
+            {
+                yield return null;
+            }
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        print("collided");
-        if (collision.gameObject.layer == 9)
-        {
-            print("meme");
-            collision.gameObject.GetComponent<PlayerHealth>().Damage(1);
-        }
-    }
+    }   
 }

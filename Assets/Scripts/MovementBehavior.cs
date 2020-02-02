@@ -16,19 +16,19 @@ public class MovementBehavior : MonoBehaviour
     public void Move(Vector2 movementVector)
     {
         //Check if you are able to move (not invulnerable)
-        if (!GetComponent<PlayerHealth>().IsInvulnerable() && !HittingWall())
+        if (!HittingWall())
         {
             //Update velocity to new velocity
             myRigidbody.velocity = movementVector;
         }
     }
 
-    public void Knockback()
-    {
-        //Move up and in the reverse direction
-        Move(new Vector2(-myRigidbody.velocity.x, 0.5f));
+    //public void Knockback()
+    //{
+    //    //Move up and in the reverse direction
+    //    Move(new Vector2(-myRigidbody.velocity.x, 0.5f));
 
-    }
+    //}
 
     public void Jump()
     {
