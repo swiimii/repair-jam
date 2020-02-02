@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class SoundLoopScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioSource source;
+    public float loopStartpos;
+    public float loopEndPos;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(!source.isPlaying || loopEndPos > 0 && source.time > loopEndPos)
+        {
+            source.time = loopStartpos;
+            source.Play();
+        }
     }
 }
