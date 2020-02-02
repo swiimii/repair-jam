@@ -15,7 +15,6 @@ public class MovementBehavior : MonoBehaviour
     //Updates Velocity to new Velocity
     public void Move(Vector2 movementVector)
     {
-        // HittingWall();
         //Check if you are able to move (not invulnerable)
         if (!GetComponent<PlayerHealth>().IsInvulnerable() && !HittingWall())
         {
@@ -45,7 +44,7 @@ public class MovementBehavior : MonoBehaviour
     public bool HittingWall()
     {
         //Set positive or negative direction
-        float distance = .8f * GetComponent<PlayerMovementController>().direction;
+        float distance = .7f * GetComponent<PlayerMovementController>().direction;
 
         //Only compare to Ground layer
         int layermask = 1 << LayerMask.NameToLayer("Ground");
