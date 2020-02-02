@@ -40,6 +40,12 @@ public class PlayerHealth : HealthController
             {
                 StartCoroutine("Death");
             }
+
+            if (GetComponent<PlayerMovementController>().attacking)
+            {
+                GetComponent<MovementBehavior>().CancelAttack();
+            }
+                
         }
     }
 

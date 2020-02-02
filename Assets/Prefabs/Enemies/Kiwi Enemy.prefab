@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1845511163611373312}
   - component: {fileID: 1845511163611373326}
   - component: {fileID: 1845511163611373313}
+  - component: {fileID: 6681884576146864858}
   m_Layer: 8
   m_Name: Kiwi Enemy
   m_TagString: Untagged
@@ -171,3 +172,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad77f54ea2f7064ab25e12920477b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6681884576146864858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845511163611373319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85aaed32dd8e994ea7a030cb552d362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  maxHealth: 1

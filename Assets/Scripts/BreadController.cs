@@ -24,7 +24,7 @@ public class BreadController : BasicEnemyController
 
             // keep velocity , mult by new vec3(keepx*-1, keepy, keepz)
             GetComponent<BreadEnemyBehavior>().FlipMovementDirection();
-        }     
+        }
     }
 
     public IEnumerator MovementSwitch()

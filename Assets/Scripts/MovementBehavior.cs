@@ -5,6 +5,8 @@ using UnityEngine;
 public class MovementBehavior : MonoBehaviour
 {
     private Rigidbody2D myRigidbody;
+
+    private GameObject hitbox;
     
     public void Start()
     {
@@ -72,18 +74,49 @@ public class MovementBehavior : MonoBehaviour
         return false;
     }
 
-    private IEnumerable ChopRoutine()
+    public IEnumerator ChopRoutine()
     {
-        float attackDuration = 1.2f;
+        float attackDuration = .6f;
+        Vector3 offset = new Vector3(1f * GetComponent<PlayerMovementController>().direction, 0);
 
+        hitbox = Instantiate(GetComponent<PlayerMovementController>().attackHitbox);
         GetComponent<PlayerMovementController>().attacking = true;
         GetComponent<Animator>().SetBool("attacking", true);
-        
+        Lunge();
 
-        yield return new WaitForSeconds(attackDuration);
+        float elapsed = 0f;
+        while(elapsed < attackDuration)
+        {
+            elapsed += Time.deltaTime;
+            hitbox.transform.position = transform.position + offset;
+            yield return null;
 
+        }
+
+        Destroy(hitbox);
         GetComponent<PlayerMovementController>().attacking = false;
         GetComponent<Animator>().SetBool("attacking", false);
+
         
     }
+
+    public void Lunge()
+    {
+        var direction = GetComponent<PlayerMovementController>().direction;
+        var col = GetComponent<PlayerMovementController>().attackHitbox.GetComponent<BoxCollider2D>();
+        var rb = GetComponent<Rigidbody2D>();
+
+        col.offset = new Vector3(col.offset.x * direction, col.offset.y);
+        var magnitude = 6f * direction;        
+        rb.velocity = new Vector3(magnitude, rb.velocity.y);
+    }
+
+    public void CancelAttack()
+    {
+        GetComponent<PlayerMovementController>().attacking = false;
+        Destroy(hitbox);
+        GetComponent<MovementBehavior>().StopCoroutine("ChopRoutine");
+        GetComponent<Animator>().SetBool("attacking", false);
+    }
 }
+

@@ -6,6 +6,7 @@ public class PlayerMovementController : MonoBehaviour
     public MovementBehavior myBehavior;
     public float direction;
     public bool grounded, attacking;
+    public GameObject attackHitbox;
     private void Start()
     {
         direction = 0;
@@ -25,7 +26,7 @@ public class PlayerMovementController : MonoBehaviour
             {
                 myBehavior.Jump();
             }
-            if (Input.GetButton("Attack"))
+            if (Input.GetButtonDown("Attack"))
             {
                 myBehavior.Chop();
             }

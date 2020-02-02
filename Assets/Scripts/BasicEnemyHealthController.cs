@@ -12,10 +12,14 @@ public class BasicEnemyHealthController : HealthController
     public override void Damage(int dmg)
     {
         health -= dmg;
+        if (health <= 0)
+        {
+            Death();
+        }
     }
 
     public virtual void Death()
     {
-
+        Destroy(gameObject);
     }
 }
