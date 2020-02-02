@@ -24,7 +24,7 @@ public class AnimateText : MonoBehaviour
 
     void FixedUpdate()
     {
-        text.position += (Input.GetMouseButton(0) ? 6 : 1) * Vector3.up;
+        text.position += (Input.GetMouseButton(0) ? 6 : 0.5f) * Vector3.up;
         if (text.position.y >= endY)
         {
             PlayGame();
