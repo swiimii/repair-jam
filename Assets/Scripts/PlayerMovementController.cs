@@ -56,16 +56,17 @@ public class PlayerMovementController : MonoBehaviour
 
     private bool Grounded()
     {
-        float distance = 1f;
+        float distance = .05f;
 
         //Only compare to Ground layer
         int layermask = 1 << LayerMask.NameToLayer("Ground");
 
         //Get if it hit
-        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask);
+        var col = GetComponent<CapsuleCollider2D>();
+        var hit = Physics2D.Raycast(col.bounds.center + col.bounds.size.y/2 * Vector3.down, Vector3.down, distance, layermask);
 
         //Draws ray
-        Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
+        Debug.DrawRay(col.bounds.center + col.bounds.size.y / 2 * Vector3.down, Vector3.down * distance, Color.blue);
 
         //Return true or false based on if it hit ground
         if (hit.collider)
