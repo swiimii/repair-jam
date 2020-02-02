@@ -1907,6 +1907,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5955759016840736942, guid: fb29538d4af0c464c9fe2a08171cc8c3,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6f46f65ea17f9134ba2166e879e30bb9, type: 3}
+    - target: {fileID: 2746636460399059336, guid: fb29538d4af0c464c9fe2a08171cc8c3,
+        type: 3}
+      propertyPath: loopStartpos
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746636460399059336, guid: fb29538d4af0c464c9fe2a08171cc8c3,
+        type: 3}
+      propertyPath: loopEndPos
+      value: 62
+      objectReference: {fileID: 0}
     - target: {fileID: 1868397103078334910, guid: fb29538d4af0c464c9fe2a08171cc8c3,
         type: 3}
       propertyPath: m_Name
