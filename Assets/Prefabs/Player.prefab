@@ -145,6 +145,9 @@ MonoBehaviour:
   myBehavior: {fileID: 0}
   direction: 0
   grounded: 0
+  attacking: 0
+  attackHitbox: {fileID: 8229265488140078296, guid: 5474ae3c3dd7eff40b818cccbbd86e6e,
+    type: 3}
 --- !u!50 &1868397103078334896
 Rigidbody2D:
   serializedVersion: 4
