@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SamScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/StartScreenScene.unity
+    guid: 266f571993e2254418b2041f72f9f35a
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 830e779cc15023b4c970b77bb8093a95
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: eedf6765bceda944697875ca4eb40093
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: c074d22df29becd4daae31b424d33f90
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 1d0957f853718df43bda71d49e5b9cc8
+  - enabled: 1
+    path: Assets/Scenes/CourtLevel.unity
+    guid: ad94cc878ee874f9f9fa4b49aa05fa56
   m_configObjects: {}

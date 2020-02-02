@@ -4,17 +4,86 @@ using UnityEngine;
 
 public class MovementBehavior : MonoBehaviour
 {
+    private Rigidbody2D myRigidbody;
+    
+    public void Start()
+    {
+        //Grab rigidbody for later use
+        myRigidbody = GetComponent<Rigidbody2D>();
+    }
+    
+    //Updates Velocity to new Velocity
     public void Move(Vector2 movementVector)
     {
-        if (GetComponent<PlayerHealth>.IsInvulnerable())
-        Rigidbody2D myRigidbody = GetComponent<PlayerMovementController>().myRigidBody;
-        myRigidbody.velocity = movementVector;
+        //Check if you are able to move (not invulnerable)
+        if (!HittingWall())
+        {
+            //Update velocity to new velocity
+            myRigidbody.velocity = movementVector;
+        }
     }
-    public void KnockBack()
+
+    public void Chop()
     {
-        PlayerMovementController player = GetComponent<PlayerMovementController>();
-        Move(new Vector2(-player.myRigidBody.velocity.x, 0.5f));
-
+        StartCoroutine("ChopRoutine");
     }
 
+    public void Jump()
+    {
+        //Move up
+        GetComponent<Animator>().SetTrigger("jump");
+        GetComponent<Animator>().SetBool("isAirborne", true);
+        var jumpVelocity = 6f;
+        myRigidbody.velocity = new Vector3(myRigidbody.velocity.x, jumpVelocity);               
+    }
+
+    //To check if on the ground
+
+    public bool HittingWall()
+    {
+        //Set positive or negative direction
+        float distance = .7f * GetComponent<PlayerMovementController>().direction;
+
+        //Only compare to Ground layer
+        int layermask = 1 << LayerMask.NameToLayer("Ground");
+
+        //Height of object divided by 2
+        float height = GetComponent<CapsuleCollider2D>().bounds.size.x / 2;
+        
+        //Vector form of above
+        Vector3 heightVector = new Vector3(0, height, 0);
+
+        //Checks middle, high, and low casts
+        RaycastHit2D hit1 = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position +  heightVector, Vector3.right, distance, layermask);
+        RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask);
+        
+        //Draws the rays
+        Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
+        Debug.DrawRay(transform.position + heightVector, Vector3.right * distance, Color.green);
+        Debug.DrawRay(transform.position - heightVector, Vector3.right * distance, Color.green);
+        
+        
+        //if it hit return true for hitting wall
+        if (hit1.collider || hit2.collider || hit3.collider)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    private IEnumerable ChopRoutine()
+    {
+        float attackDuration = 1.2f;
+
+        GetComponent<PlayerMovementController>().attacking = true;
+        GetComponent<Animator>().SetBool("attacking", true);
+        
+
+        yield return new WaitForSeconds(attackDuration);
+
+        GetComponent<PlayerMovementController>().attacking = false;
+        GetComponent<Animator>().SetBool("attacking", false);
+        
+    }
 }
