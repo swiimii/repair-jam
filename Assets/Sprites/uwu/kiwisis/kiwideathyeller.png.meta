@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: f2f7fa7c4c13b41f39658400ccb88c44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 960047151547671079
+    second: kiwideathyeller_0
+  - first:
+      213: -3525617115854020802
+    second: kiwideathyeller_1
+  - first:
+      213: 2070908806535662201
+    second: kiwideathyeller_2
+  - first:
+      213: 1947038723470663022
+    second: kiwideathyeller_3
+  - first:
+      213: -871536112339852574
+    second: kiwideathyeller_4
+  - first:
+      213: 5046532882026849114
+    second: kiwideathyeller_5
+  - first:
+      213: -6595038467904928771
+    second: kiwideathyeller_6
+  - first:
+      213: -6748972813520583082
+    second: kiwideathyeller_7
+  - first:
+      213: -1339445926200529558
+    second: kiwideathyeller_8
+  - first:
+      213: -1056909895501267323
+    second: kiwideathyeller_9
+  - first:
+      213: -9056024364341287827
+    second: kiwideathyeller_10
+  - first:
+      213: 5932861623387548421
+    second: kiwideathyeller_11
+  - first:
+      213: -7482140403841642723
+    second: kiwideathyeller_12
+  - first:
+      213: 1962646534362514896
+    second: kiwideathyeller_13
+  - first:
+      213: 9183339602471382331
+    second: kiwideathyeller_14
+  - first:
+      213: -1584156609444551047
+    second: kiwideathyeller_15
+  - first:
+      213: 1239278121138446265
+    second: kiwideathyeller_16
+  - first:
+      213: 5348066415644955399
+    second: kiwideathyeller_17
+  - first:
+      213: -4506739093950839870
+    second: kiwideathyeller_18
+  - first:
+      213: -4487904408305705233
+    second: kiwideathyeller_19
+  - first:
+      213: 5661194132116750289
+    second: kiwideathyeller_20
+  - first:
+      213: 2027853017108310756
+    second: kiwideathyeller_21
+  - first:
+      213: 2950070320762178753
+    second: kiwideathyeller_22
+  - first:
+      213: -340126945639924699
+    second: kiwideathyeller_23
+  - first:
+      213: 7532497698228169185
+    second: kiwideathyeller_24
+  - first:
+      213: -495240150503232370
+    second: kiwideathyeller_25
+  - first:
+      213: 1772341716945503641
+    second: kiwideathyeller_26
+  - first:
+      213: 2672630567561426210
+    second: kiwideathyeller_27
+  - first:
+      213: 2061794910828082159
+    second: kiwideathyeller_28
+  - first:
+      213: -3599862599824585897
+    second: kiwideathyeller_29
+  - first:
+      213: -6385319269056565806
+    second: kiwideathyeller_30
+  - first:
+      213: 1012416483192349060
+    second: kiwideathyeller_31
+  - first:
+      213: -3142586615894690721
+    second: kiwideathyeller_32
+  - first:
+      213: -8198992539361517191
+    second: kiwideathyeller_33
+  - first:
+      213: -8478667748791426398
+    second: kiwideathyeller_34
+  - first:
+      213: -1480249964366905781
+    second: kiwideathyeller_35
+  - first:
+      213: 8031665267500910932
+    second: kiwideathyeller_36
+  - first:
+      213: 4577951516849645398
+    second: kiwideathyeller_37
+  - first:
+      213: 3698308437864106868
+    second: kiwideathyeller_38
+  - first:
+      213: -4974258288098230082
+    second: kiwideathyeller_39
+  - first:
+      213: -6345043821779993061
+    second: kiwideathyeller_40
+  - first:
+      213: 2392276854438015751
+    second: kiwideathyeller_41
+  - first:
+      213: 5263270383835870731
+    second: kiwideathyeller_42
+  - first:
+      213: -2017889192989378023
+    second: kiwideathyeller_43
+  - first:
+      213: 5165270110345275097
+    second: kiwideathyeller_44
+  - first:
+      213: -6228625343639117026
+    second: kiwideathyeller_45
+  - first:
+      213: 1895495073752664673
+    second: kiwideathyeller_46
+  - first:
+      213: 96253727166225286
+    second: kiwideathyeller_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kiwideathyeller_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e288900b5a2b404a88d13326da6fc2b
+      internalID: 960047151547671079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71d845e6825b48f080af5d0ce08459a
+      internalID: -3525617115854020802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3510934ada6e04556bf926e6bde7c2ce
+      internalID: 2070908806535662201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d57765e95e62494cb438f6c3c5c3fe8
+      internalID: 1947038723470663022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafb8c5abde7148d09df9e88debb7e33
+      internalID: -871536112339852574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf721dab0b5d436e84ea72a9872712c
+      internalID: 5046532882026849114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed33c4f4c00e43e4b026339c7c4a770
+      internalID: -6595038467904928771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_7
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c5c90a8561a45cc8526b6cf3ad0efd
+      internalID: -6748972813520583082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_8
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c66c7ec15664a29a6caea3525fb07a
+      internalID: -1339445926200529558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_9
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba630686593e249bc8d67a9eb25e997f
+      internalID: -1056909895501267323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_10
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6a1a83fcde34f03b89996f063071da
+      internalID: -9056024364341287827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_11
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ceb1a29c71415fb64d080fb19aa9d
+      internalID: 5932861623387548421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_12
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52a14df966a6430c906d11cba51e2a7
+      internalID: -7482140403841642723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_13
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b670f15435d041948bc76262774e41a
+      internalID: 1962646534362514896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_14
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0639b31fbe2ba4c87b657563e02234ee
+      internalID: 9183339602471382331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_15
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2dd6afeead14de390374accab82fea
+      internalID: -1584156609444551047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_16
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dfe0baebf6c452792e6b88920034f9
+      internalID: 1239278121138446265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_17
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4cae61726654a63b753e142b5a2b36
+      internalID: 5348066415644955399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_18
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa3a526db9242cca199b3a2fc228dc
+      internalID: -4506739093950839870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_19
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760a8544c198a467eae05c1882e5a89b
+      internalID: -4487904408305705233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_20
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4856aa0eb337e4fa7b72047b43e70f3f
+      internalID: 5661194132116750289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_21
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb23752cb3254acc9217e83bb0198a1
+      internalID: 2027853017108310756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_22
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436d43619e69e4bbe94d695cca7caf79
+      internalID: 2950070320762178753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_23
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0909c990957d40b7a6bda531ad32f92
+      internalID: -340126945639924699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_24
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef97fde0b360f4153a8922d166842ed9
+      internalID: 7532497698228169185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_25
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11813b4cebb1499185673b1541bdcde
+      internalID: -495240150503232370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_26
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc407bde2e444e449cb37d8bf653085
+      internalID: 1772341716945503641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e3a0dd3f32d4d0f89f17681f6aaa1c
+      internalID: 2672630567561426210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_28
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94f5a660654e49f78a4e1097fb496f7
+      internalID: 2061794910828082159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_29
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7748925861d4159af82fb2bc76127c
+      internalID: -3599862599824585897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_30
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4dee6cbb69d42dfae6656929f0539d
+      internalID: -6385319269056565806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_31
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22218d6655668427daef671a41cee4a0
+      internalID: 1012416483192349060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_32
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748149b191ce442ebb1a64579bb9482f
+      internalID: -3142586615894690721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_33
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7981aeab1a41343d08edb14d721bb3b6
+      internalID: -8198992539361517191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_34
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d07c993b4434358b50096b05e25f8a
+      internalID: -8478667748791426398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_35
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456e603b5a2184949b43e3e9bef2bcf4
+      internalID: -1480249964366905781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_36
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29be08b28ce44166b21798377799b3a
+      internalID: 8031665267500910932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_37
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1263d0b3e8b64a2ab71169986e84f2e
+      internalID: 4577951516849645398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_38
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4d7d18956f54135a193d21dc489c34
+      internalID: 3698308437864106868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_39
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7941d2c55fa4522853df2d376a84cc
+      internalID: -4974258288098230082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_40
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefb9c028ba3a42689df90f3c503f90c
+      internalID: -6345043821779993061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_41
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1285fd95d62149fa8dbac323b20da6a
+      internalID: 2392276854438015751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_42
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c48643ffa9f3437b8ac4f6805c85bbb
+      internalID: 5263270383835870731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_43
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4354c88a2e4594807ba99d531830a4d4
+      internalID: -2017889192989378023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_44
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a65a371905d2445cba1c062f496d5c7
+      internalID: 5165270110345275097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_45
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb184b6e57564c2fb11e8991becc652
+      internalID: -6228625343639117026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_46
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b3856e6739347a6997ad267d140cc3
+      internalID: 1895495073752664673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiwideathyeller_47
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa493dd0d0b647a3a187dbff7716b0f
+      internalID: 96253727166225286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
