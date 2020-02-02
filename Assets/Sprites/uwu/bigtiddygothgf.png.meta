@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: fb26c63e6f4fd402f883f8b4883536d7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2134563401613050789
+    second: bigtiddygothgf_0
+  - first:
+      213: -1810669349826075130
+    second: bigtiddygothgf_1
+  - first:
+      213: -7125522989491822880
+    second: bigtiddygothgf_2
+  - first:
+      213: -1210288011424649951
+    second: bigtiddygothgf_3
+  - first:
+      213: 3708271395239932437
+    second: bigtiddygothgf_4
+  - first:
+      213: 3731466850189987216
+    second: bigtiddygothgf_5
+  - first:
+      213: -7980303223922122922
+    second: bigtiddygothgf_6
+  - first:
+      213: -8393189498252967950
+    second: bigtiddygothgf_7
+  - first:
+      213: -5872029830314478325
+    second: bigtiddygothgf_8
+  - first:
+      213: -2615692605104785263
+    second: bigtiddygothgf_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,7 +126,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bigtiddygothgf_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b291cfdb4114278ba712eb374fbeeb
+      internalID: -2134563401613050789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f0a0c6f13f84cc3bdf596ec4f47261
+      internalID: -1810669349826075130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6039aaf2f2dce4ad5a4fb6843939a40d
+      internalID: -7125522989491822880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3481a4010752943378c4504f18220eb4
+      internalID: -1210288011424649951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feaca56b51594c9e9af8a5585604a53
+      internalID: 3708271395239932437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae687c400256f433796a07ef4101ee40
+      internalID: 3731466850189987216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d6c12e1ce8d4e48a15968fb862056a
+      internalID: -7980303223922122922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_7
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1064d4f5a933d426f904ce3b8c0139a0
+      internalID: -8393189498252967950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_8
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be58d1319909f408eaa2f6b08cefec2e
+      internalID: -5872029830314478325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigtiddygothgf_9
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 10
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c528a98aeb444438ba27e21f4233cfd
+      internalID: -2615692605104785263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
