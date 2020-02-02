@@ -21,7 +21,7 @@ public class BulletController : MonoBehaviour
         yield return new WaitForSeconds(7f);
         Destroy(gameObject);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         print("collided");
         if (collision.gameObject.layer == 9)
