@@ -20,11 +20,12 @@ public class BasicEnemyHealthController : HealthController
 
     public virtual void Death()
     {
+        StopAllCoroutines();
         StartCoroutine("DeathRoutine");
     }
 
-    public IEnumerator DeathRoutine()
-    {
+    public virtual IEnumerator DeathRoutine()
+    {        
         GetComponent<Rigidbody2D>().isKinematic = true;
         GetComponent<Animator>().SetBool("isDead", true);
         GetComponent<BasicEnemyController>().enabled = false;

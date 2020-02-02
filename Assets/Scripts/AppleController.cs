@@ -40,7 +40,10 @@ public class AppleController : BasicEnemyController
             GetComponent<Animator>().SetBool("attack",false);
             GetComponent<Animator>().SetBool("shoot", true);
             yield return new WaitForSeconds(.4f);
-            Fire();
+            if (GetComponent<BasicEnemyHealthController>().GetHealth() > 0)
+            {
+                Fire();
+            }
             GetComponent<Animator>().SetBool("shoot", false);
 
             moving = true;
@@ -50,7 +53,7 @@ public class AppleController : BasicEnemyController
     }
 
     public void Fire()
-    {
+    {        
         var obj = Instantiate(bullet, transform.position + Vector3.down * .2f, Quaternion.identity);
         obj.GetComponent<BulletController>().direction = direction;
     }
@@ -64,4 +67,5 @@ public class AppleController : BasicEnemyController
             collision.gameObject.GetComponent<PlayerHealth>().Damage(1);
         }
     }
+
 }
