@@ -7,6 +7,8 @@ public class MovementBehavior : MonoBehaviour
     private Rigidbody2D myRigidbody;
 
     private GameObject hitbox;
+
+    public AudioSource slap;
     
     public void Start()
     {
@@ -76,6 +78,8 @@ public class MovementBehavior : MonoBehaviour
 
     public IEnumerator ChopRoutine()
     {
+        slap.Play();
+
         float attackDuration = .6f;
         Vector3 offset = new Vector3(1f * GetComponent<PlayerMovementController>().direction, 0);
 
