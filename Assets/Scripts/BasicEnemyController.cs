@@ -26,7 +26,7 @@ public class BasicEnemyController : EnemyController
         var distance = .8f * direction;
         var layermask = 1 << LayerMask.NameToLayer("Ground");
 
-        var hit = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask, 0);
+        var hit = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask);
         Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
 
         // print(hit.collider ? hit.collider.gameObject : false);
@@ -42,7 +42,7 @@ public class BasicEnemyController : EnemyController
         var distance = .5f;
         var layermask = 1 << LayerMask.NameToLayer("Ground");
 
-        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask, 0);
+        var hit = Physics2D.Raycast(transform.position, Vector3.down, distance, layermask);
         Debug.DrawRay(transform.position, Vector3.down * distance, Color.blue);
 
         // print(hit.collider ? hit.collider.gameObject : false);
@@ -58,7 +58,7 @@ public class BasicEnemyController : EnemyController
         var distance = .5f;
         var layermask = 1 << LayerMask.NameToLayer("Ground");
 
-        var hit = Physics2D.Raycast(transform.position + direction * Vector3.right * .2f, Vector3.down, distance, layermask, 0);
+        var hit = Physics2D.Raycast(transform.position + direction * Vector3.right * .2f, Vector3.down, distance, layermask);
         Debug.DrawRay(transform.position + direction * Vector3.right * .2f, Vector3.down * distance, Color.red);
 
         // print(hit.collider ? hit.collider.gameObject : false);
