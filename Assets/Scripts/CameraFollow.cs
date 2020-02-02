@@ -10,7 +10,6 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if ((player.transform.position + offset).x > leftBound)
         {
             //Used to follow player object

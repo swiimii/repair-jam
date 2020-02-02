@@ -42,4 +42,14 @@ public class KiwiController : BasicEnemyController
             yield return new WaitForSeconds(movementduration);            
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        print("collided");
+        if (collision.gameObject.layer == 9)
+        {
+            print("meme");
+            collision.gameObject.GetComponent<PlayerHealth>().Damage(1);
+        }
+    }
 }

@@ -15,7 +15,6 @@ public class MovementBehavior : MonoBehaviour
     //Updates Velocity to new Velocity
     public void Move(Vector2 movementVector)
     {
-        HittingWall();
         //Check if you are able to move (not invulnerable)
         if (!GetComponent<PlayerHealth>().IsInvulnerable() && !HittingWall())
         {
@@ -46,7 +45,7 @@ public class MovementBehavior : MonoBehaviour
     //To check if on the ground
     public bool Grounded()
     {
-        float distance = .8f;
+        float distance = .9f;
 
         //Only compare to Ground layer
         int layermask = 1 << LayerMask.NameToLayer("Ground");
@@ -68,27 +67,27 @@ public class MovementBehavior : MonoBehaviour
     public bool HittingWall()
     {
         //Set positive or negative direction
-        float distance = .8f * GetComponent<PlayerMovementController>().direction;
+        float distance = .7f * GetComponent<PlayerMovementController>().direction;
 
         //Only compare to Ground layer
         int layermask = 1 << LayerMask.NameToLayer("Ground");
 
         //Height of object divided by 2
-        float height = GetComponent<CapsuleCollider2D>().bounds.size.y / 2;
+        float height = GetComponent<CapsuleCollider2D>().bounds.size.x / 2;
         
         //Vector form of above
         Vector3 heightVector = new Vector3(0, height, 0);
 
         //Checks middle, high, and low casts
-        RaycastHit2D hit1 = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask, 0);
-        RaycastHit2D hit2 = Physics2D.Raycast(transform.position +  heightVector, Vector3.right, distance, layermask, 0);
-        RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask, 0);
+        RaycastHit2D hit1 = Physics2D.Raycast(transform.position, Vector3.right, distance, layermask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position +  heightVector, Vector3.right, distance, layermask);
+        RaycastHit2D hit3 = Physics2D.Raycast(transform.position - heightVector , Vector3.right, distance, layermask);
         
         //Draws the rays
-        /*Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
+        Debug.DrawRay(transform.position, Vector3.right * distance, Color.green);
         Debug.DrawRay(transform.position + heightVector, Vector3.right * distance, Color.green);
         Debug.DrawRay(transform.position - heightVector, Vector3.right * distance, Color.green);
-        */
+
         
         //if it hit return true for hitting wall
         if (hit1.collider || hit2.collider || hit3.collider)
